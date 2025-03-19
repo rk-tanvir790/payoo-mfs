@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo-Mfs</title>
+    <!-- Google Font Added -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- DaisyUi Added -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Css File Added -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    <!-- Home Page section Start -->
+     <div class="home-container flex justify-center flex-col md:w-[450px] h-[100vh] mx-auto bg-slate-100">
+        <!-- Logo part -->
+        <div class="logo-container flex justify-center relative">
+            <img src="assets/bg.png" alt="">
+            <img id="logo2" src="assets/Group.png" class="absolute mt-8" alt="logo">
+        </div>
+        <!-- From Part -->
+        <div class="hero -mt-48">
+            <div class="hero-content flex-col lg:flex-row-reverse w-full">
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl rounded-3xl">
+                <form class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="fieldset-label outfit-font font-medium text-base text-black">Enter your number</label>
+                    <input type="number" class="input px-5 py-6 rounded-[32px] my-4 bg-[#F4F5F7] border-none" placeholder="Enter your number" />
+                    <label class="fieldset-label outfit-font font-medium text-base text-black">Enter 4 digit pin</label>
+                    <input type="password" class="input px-5 py-6 rounded-[32px] my-4 bg-[#F4F5F7] border-none" placeholder="Enter 4 digit pin" />
+                    <button class="btn btn-neutral mt-4 px-5 py-6 rounded-[32px] my-4 bg-blue-600 text-white outfit-font font-semibold text-xl border-none">Login</button>
+                  </fieldset>
+                </form>
+            </div>
+            </div>
+          </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Payoo!</title>
+    <!-- Google Font Added -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- DaisyUi Added -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Css File Added -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    <!-- Welcome Page section Start -->
+    <div class="welcome-container flex flex-col md:w-[450px] h-[100vh] mx-auto bg-slate-100">
+        <!-- header part start -->
+       <div class="header flex justify-between px-6 py-6 ">
+        <!-- left side -->
+         <div class="left-side flex items-center gap-2">
+            <img src="assets/Group.png" alt="" class="w-[50px] h-[50px]">
+            <div class="text-part">
+                <p class="outfit-font font-extrabold text-xl">$45000</p>
+                <p class="outfit-font font-normal text-base">Available Balance</p>
+            </div>
+         </div>
+         <!-- right side -->
+         <button id="logout-btn" class="btn">Log Out</button>
+       </div>
+        <!--Header part End  -->
+
+        <!-- 2nd part start -->
+         <div class="second-part px-6 pb-6">
+            <div class="content pt-8 pb-6">
+                <h2 class="outfit-font font-bold text-2xl mb-3">🔥 Welcome to Payooo!</h2>
+                <p class="outfit-font font-normal text-base">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+            </div>
+            <!-- cards part -->
+             <div class="cards grid grid-cols-3 gap-3">
+                <div class="card2">
+                    <img src="assets/wallet1.png" alt="">
+                    <p class="outfit-font text-[14px]">Add Money</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/send1.png" alt="">
+                    <p class="outfit-font text-[14px]">Cashout</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/money1.png" alt="">
+                    <p class="outfit-font text-[14px]">Transfer Money</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/bonus1.png" alt="">
+                    <p class="outfit-font text-[14px]">Get Bonus</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/purse1.png" alt="">
+                    <p class="outfit-font text-[14px]">Pay Bill</p>
+                </div>
+                <div class="card2">
+                    <img src="assets/transaction1.png" alt="">
+                    <p class="outfit-font text-[14px]">Transactions</p>
+                </div>
+             </div>
+         </div>
+         <!-- 2nd part End -->
+         <!-- 3rd Part Start -->
+          <div class="third-part px-6 py-10 bg-[#efefef]">
+            <div class="third-nav flex justify-between mb-3">
+                <h2 class="outfit-font font-semibold text-[18px]">Latest Payment</h2>
+                <p class="outfit-font text-[14px]">View All</p>
+            </div>
+            <div class="card3 flex justify-between my-3">
+                <div class="image-content flex gap-3 items-center">
+                    <img src="assets/wallet1.png" alt="">
+                    <div class="content2">
+                        <h2 class="outfit-font font-semibold">Electricity Bill</h2>
+                        <p class="outfit-font text-[12px]">Today 01:44 AM</p>
+                    </div>
+                </div>
+                <button class="text-gray-500 text-3xl">&#8942;</button>
+            </div>
+            <div class="card3 flex justify-between my-3">
+                <div class="image-content flex gap-3 items-center">
+                    <img src="assets/wallet1.png" alt="">
+                    <div class="content2">
+                        <h2 class="outfit-font font-semibold">Bank Deposit</h2>
+                        <p class="outfit-font text-[12px]">Today 01:44 AM</p>
+                    </div>
+                </div>
+                <button class="text-gray-500 text-3xl">&#8942;</button>
+            </div>
+            <div class="card3 flex justify-between my-3">
+                <div class="image-content flex gap-3 items-center">
+                    <img src="assets/wallet1.png" alt="">
+                    <div class="content2">
+                        <h2 class="outfit-font font-semibold">Mobile Recharge</h2>
+                        <p class="outfit-font text-[12px]">Today 01:44 AM</p>
+                    </div>
+                </div>
+                <button class="text-gray-500 text-3xl">&#8942;</button>
+            </div>
+            <div class="card3 flex justify-between my-3">
+                <div class="image-content flex gap-3 items-center">
+                    <img src="assets/wallet1.png" alt="">
+                    <div class="content2">
+                        <h2 class="outfit-font font-semibold">Gass Bill</h2>
+                        <p class="outfit-font text-[12px]">Today 01:44 AM</p>
+                    </div>
+                </div>
+                <button class="text-gray-500 text-3xl">&#8942;</button>
+            </div>
+          </div>
+          <!-- 3rd part end -->
+    </div>
+    <script src="welcome.js"></script>
+</body>
+</html>
